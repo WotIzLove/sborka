@@ -53,7 +53,7 @@ export default {
       }
     },
     showCart() {
-      if (this.showCart) {
+      if (this.showCart && this.width < 1199) {
         document.body.style.overflow = "hidden";
         return;
       }
